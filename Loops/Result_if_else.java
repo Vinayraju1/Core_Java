@@ -8,7 +8,7 @@ public class Result_if_else {
         Scanner input = new Scanner(System.in);
         double GPA = input.nextDouble();
 
-        if (GPA >= 3 && GPA < 4)  {
+        if (GPA >= 3 && GPA < 4.5)  {
             System.out.println("The Candidate is eligible for Graduation");
         } else  if (GPA == 4) {
             System.out.println("The candidate is Graduating with highest grade");
